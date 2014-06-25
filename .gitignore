@@ -1,0 +1,5 @@
+course_libraries/
+01_Analysis_of_Algorithms/*/nbproject/private
+01_Analysis_of_Algorithms/*/build
+01_Analysis_of_Algorithms/*/dist
+01_Analysis_of_Algorithms/*/test
