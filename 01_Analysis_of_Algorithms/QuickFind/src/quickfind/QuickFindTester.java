@@ -25,9 +25,10 @@ public class QuickFindTester
             int q = StdIn.readInt();
             if (uf.connected(p, q)) continue;
             uf.union(p, q);
-            StdOut.println(p + " " + q);
+            StdOut.println(p + "-" + q);
+            StdOut.println(uf.count() + " components");
         }
-        // Once done entering pairs, hit ctrl-D to indicate EOL & skip to this
+        // Once done entering pairs, hit ctrl-D to skip to this
         StdOut.println(uf.count() + " components");
     }
 }
