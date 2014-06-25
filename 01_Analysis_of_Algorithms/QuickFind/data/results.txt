@@ -1,0 +1,16 @@
+10 nodes:
+0-1
+9 components
+0-5
+8 components
+2-7
+7 components
+2-3
+6 components
+7-8
+5 components
+3-4
+4 components
+4-9
+3 components
+Final: 3 components

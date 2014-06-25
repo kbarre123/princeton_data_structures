@@ -19,6 +19,7 @@ public class QuickFindTester
      */
     public static void main(String[] args) {
         int N = StdIn.readInt();
+        StdOut.println(N + " nodes:");
         QuickFind uf = new QuickFind(N);
         while (!StdIn.isEmpty()) {
             int p = StdIn.readInt();
@@ -29,6 +30,6 @@ public class QuickFindTester
             StdOut.println(uf.count() + " components");
         }
         // Once done entering pairs, hit ctrl-D to skip to this
-        StdOut.println(uf.count() + " components");
+        StdOut.println("Final: " + uf.count() + " components");
     }
 }
