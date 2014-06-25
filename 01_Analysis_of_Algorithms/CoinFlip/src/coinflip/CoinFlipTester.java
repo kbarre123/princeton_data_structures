@@ -6,7 +6,6 @@
 package coinflip;
 
 import edu.princeton.cs.introcs.*;
-import edu.princeton.cs.algs4.*;
 
 /**
  * @author kcb
