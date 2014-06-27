@@ -1,16 +1,35 @@
-10 nodes:
+20 nodes:
 0-1
-9 components
+19 components
 0-5
-8 components
+18 components
 2-7
-7 components
+17 components
 2-3
-6 components
+16 components
 7-8
-5 components
+15 components
 3-4
-4 components
+14 components
 4-9
-3 components
-Final: 3 components
+13 components
+4-1
+12 components
+2-12
+11 components
+13-14
+10 components
+15-18
+9 components
+19-1
+8 components
+17-15
+7 components
+17-4
+6 components
+16-9
+5 components
+13-2
+4 components
+Final: 4 components
+Run-time(ms): 0.048

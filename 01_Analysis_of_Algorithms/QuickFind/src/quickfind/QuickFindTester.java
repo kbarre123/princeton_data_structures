@@ -18,6 +18,9 @@ public class QuickFindTester
      * @param args
      */
     public static void main(String[] args) {
+        // Time the program
+        StopWatch timer = new StopWatch();
+        
         int N = StdIn.readInt();
         StdOut.println(N + " nodes:");
         QuickFind uf = new QuickFind(N);
@@ -27,9 +30,10 @@ public class QuickFindTester
             if (uf.connected(p, q)) continue;
             uf.union(p, q);
             StdOut.println(p + "-" + q);
-            StdOut.println(uf.count() + " components");
         }
         // Once done entering pairs, hit ctrl-D to skip to this
         StdOut.println("Final: " + uf.count() + " components");
+        StdOut.println("id[]: " + uf.idPrint());
+        StdOut.println("Run-time(ms): " + timer.elapsedTime());
     }
 }
